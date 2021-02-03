@@ -1,0 +1,97 @@
+body {
+  background-color: #F7F7F7;
+  font-family: calibri;
+  color: #34A870;
+  line-height: 20px;
+}
+
+title {
+  font-family: calibri;
+}
+
+h1 {
+  color: #34A860;
+  font-family: calibri;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: calibri;
+}
+
+a {
+  text-decoration: none;
+  color: #FBBC03;
+  font-family: calibri;
+}
+
+a:hover {
+  text-decoration: : underline;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #34A860;
+  color: white;
+  font-family: calibri;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: #FBBC03;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-family: calibri;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-color: #FBBC03;
+  padding: 5px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: calibri;
+}
+
+@media (max-width: 900px) {
+  .container {
+  max-width: 700px;
+    margin: auto;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+   max-width: 450px;
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+  max-width: 350px;
+    margin: auto;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+  }
+}
+
